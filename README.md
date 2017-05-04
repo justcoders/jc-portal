@@ -1,2 +1,3 @@
-# jc-portal
+# JustCoders Portal
+
 JustCoders website
