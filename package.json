@@ -2,7 +2,7 @@
   "name": "jc-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://justcoders.github.io/jc-portal",
+  "homepage": "https://justcoders.github.io/",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
