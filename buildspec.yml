@@ -4,6 +4,7 @@ phases:
     commands:
       - sudo npm install
       - sudo npm install --only=dev
+      - aws configure set preview.cloudfront true
   build:
     commands:
       - sudo ./node_modules/.bin/react-scripts build
