@@ -16,6 +16,7 @@
     "build": "REACT_APP_APIHOST=https://api.justcoders.org/ react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "maczip": "cd ./build && zip jc-portal.zip -r * .[^.]*"
   }
 }
