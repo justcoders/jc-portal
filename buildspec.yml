@@ -7,7 +7,7 @@ phases:
       - aws configure set preview.cloudfront true
   build:
     commands:
-      - sudo ./node_modules/.bin/react-scripts build
+      - sudo npm run build
   post_build:
     commands:
       - aws s3 sync --delete --exclude static/* build/ "s3://${BUCKET_NAME}"
